@@ -48,7 +48,7 @@
                     </a>
                  </li>
                  <li class="nav-item">
-                    <a class="nav-link" href="login.html">
+                    <a class="nav-link" href="/signin">
                        Login
                     </a>
                  </li>
@@ -97,7 +97,22 @@
     <section class="mb-4">
         <div class="container">
            <H1>Selamat Datang di HTML Fundamental</H1>
-           <p>Pada Materi Kali ini kita akan membahas tentang HTML dan membuat template</p>
+           <form action="">
+            <div class="form-floating border-bottom mb-3">
+              <input type="text" class="form-control border-0 rounded-0 px-0" id="signinUsername" placeholder="name@example.com">
+              <label class="px-0 opacity-50" for="signinUsername">Username / Email Address</label>
+           </div>
+
+           <div class="form-floating w-100">
+            <input type="password" class="form-control border-0 rounded-0 px-0" id="signinPass" placeholder="Password">
+            <label class="px-0 opacity-50" for="signinPass">Password</label>
+           </div>
+
+         <div class="form-group">
+          <button href="#" class="btn btn-dark w-100">Sign In</a>
+       </div>
+           
+           </form>
         </div>
     </section>
 </main>
